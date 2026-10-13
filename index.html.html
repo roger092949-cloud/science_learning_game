@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>電玩學理化與遊戲作品集</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap');
+        body { font-family: 'Noto Sans TC', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col">
+
+    <!-- Header / Hero Section -->
+    <header class="relative overflow-hidden bg-gradient-to-b from-indigo-950 via-slate-900 to-slate-950 border-b border-slate-800 py-20 px-6 text-center">
+        <div class="max-w-4xl mx-auto space-y-4">
+            <span class="inline-block bg-indigo-600/30 text-indigo-400 text-sm font-semibold px-4 py-1.5 rounded-full border border-indigo-500/30">
+                <i class="fa-solid fa-gamepad mr-2"></i> 互動學習與遊戲作品專區
+            </span>
+            <h1 class="text-4xl md:text-6xl font-black tracking-tight text-white">
+                電玩學理化 & 遊戲作品集
+            </h1>
+            <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto">
+                結合教育、趣味與挑戰的互動網頁、賽車遊戲、深淵探索以及理化考題題庫。
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content / Projects Grid -->
+    <main class="flex-grow max-w-6xl mx-auto px-6 py-16 w-full">
+        <h2 class="text-2xl font-bold mb-8 flex items-center gap-3 border-b border-slate-800 pb-4">
+            <i class="fa-solid fa-folder-open text-amber-400"></i> 專案列表
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+            
+            <!-- Project 1: 電玩學理化 -->
+            <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between hover:border-indigo-500 transition-all group">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-12 h-12 rounded-xl bg-indigo-600/20 flex items-center justify-center text-indigo-400 text-xl group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-atom"></i>
+                        </div>
+                        <span class="text-xs font-medium text-emerald-400 bg-emerald-950/50 border border-emerald-500/30 px-3 py-1 rounded-full">互動教育</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2 text-white">電玩學理化</h3>
+                    <p class="text-slate-400 leading-relaxed">
+                        透過遊戲化互動體驗，將枯燥的理化科學原理轉化為好玩有趣的闖關內容，邊玩邊學輕鬆上手。
+                    </p>
+                </div>
+                <div class="mt-6 pt-4 border-t border-slate-800/80 flex items-center justify-between">
+                    <span class="text-sm text-slate-500">科學教育網站</span>
+                    <a href="#science-game" class="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-500 text-white font-medium px-4 py-2 rounded-xl transition-colors text-sm">
+                        <span>進入體驗</span> <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 2: Racing game -->
+            <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between hover:border-indigo-500 transition-all group">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-12 h-12 rounded-xl bg-blue-600/20 flex items-center justify-center text-blue-400 text-xl group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-flag-checkered"></i>
+                        </div>
+                        <span class="text-xs font-medium text-blue-400 bg-blue-950/50 border border-blue-500/30 px-3 py-1 rounded-full">動作競速</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2 text-white">Racing game</h3>
+                    <p class="text-slate-400 leading-relaxed">
+                        極速快感競速遊戲，考驗玩家的反應力與操控技巧，在賽道上爭取最高榮譽與最快單圈紀錄。
+                    </p>
+                </div>
+                <div class="mt-6 pt-4 border-t border-slate-800/80 flex items-center justify-between">
+                    <span class="text-sm text-slate-500">網頁小遊戲</span>
+                    <a href="#racing-game" class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-medium px-4 py-2 rounded-xl transition-colors text-sm">
+                        <span>開始賽車</span> <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 3: Go the abyss -->
+            <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between hover:border-indigo-500 transition-all group">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-12 h-12 rounded-xl bg-purple-600/20 flex items-center justify-center text-purple-400 text-xl group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-skull"></i>
+                        </div>
+                        <span class="text-xs font-medium text-purple-400 bg-purple-950/50 border border-purple-500/30 px-3 py-1 rounded-full">冒險生存</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2 text-white">Go the abyss</h3>
+                    <p class="text-slate-400 leading-relaxed">
+                        深入未知的神祕深淵，面對重重難關與危機，展現勇氣與策略，探索深淵底部的最終秘密。
+                    </p>
+                </div>
+                <div class="mt-6 pt-4 border-t border-slate-800/80 flex items-center justify-between">
+                    <span class="text-sm text-slate-500">冒險挑戰</span>
+                    <a href="#abyss-game" class="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-500 text-white font-medium px-4 py-2 rounded-xl transition-colors text-sm">
+                        <span>深入深淵</span> <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 4: 考題題庫 -->
+            <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between hover:border-indigo-500 transition-all group">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-12 h-12 rounded-xl bg-amber-600/20 flex items-center justify-center text-amber-400 text-xl group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-folder-tree"></i>
+                        </div>
+                        <span class="text-xs font-medium text-amber-400 bg-amber-950/50 border border-amber-500/30 px-3 py-1 rounded-full">測驗題庫</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2 text-white">考題題庫</h3>
+                    <p class="text-slate-400 leading-relaxed">
+                        提供豐富的理化與學科練習題庫，方便隨時進行自我檢測、複習與線上測驗模擬練習。
+                    </p>
+                </div>
+                <div class="mt-6 pt-4 border-t border-slate-800/80 flex items-center justify-between">
+                    <span class="text-sm text-slate-500">學習資源</span>
+                    <a href="#question-bank" class="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-500 text-white font-medium px-4 py-2 rounded-xl transition-colors text-sm">
+                        <span>查看題庫</span> <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 border-t border-slate-800 py-8 text-center text-slate-500 text-sm">
+        <p>&copy; 2026 電玩學理化與遊戲作品集. All rights reserved. Hosted on GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
